@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SPCC.iml" filepath="$PROJECT_DIR$/.idea/SPCC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SPCC_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SPCC_main.iml" group="SPCC" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SPCC_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SPCC_test.iml" group="SPCC" />
     </modules>
   </component>
 </project>
