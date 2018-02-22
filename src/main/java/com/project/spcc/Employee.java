@@ -8,14 +8,16 @@ import javax.persistence.Id;
 
 @Data
 @Entity
-public class Employee {
+class Employee {
 
     private @Id @GeneratedValue Long id;
-    private String firstName, lastName, description;
+    private String firstName;
+    private String lastName;
+    private String description;
 
     private Employee(){}
 
-    public Employee(String firstName, String lastName, String description){
+    Employee(String firstName, String lastName, String description){
         this.firstName = firstName;
         this.lastName = lastName;
         this.description = description;
